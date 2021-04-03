@@ -13,25 +13,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
-  max-width: 500px;
-  margin: 30px auto;
-  overflow: auto;
-  min-height: 300px;
-  border: 1px solid steelblue;
-  padding: 30px;
-  border-radius: 5px;
-}
-
-.header {
-  max-width: 3000px;
-  margin: 30px auto;
-  border: 1px solid steelblue;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
 
 .btn {
   display: inline-block;
@@ -64,3 +45,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

@@ -1,0 +1,45 @@
+.board-row:after {
+    align-items: center;
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 600px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .square {
+    background: lightskyblue;
+    border: 1px solid steelblue;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 43px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    padding: 0;
+    text-align: center;
+    width: 43px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
