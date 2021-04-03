@@ -1,18 +1,19 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return (
-        <div>
-            <h1>Snake game!</h1>
+        <header className='header'>
+            <h1>Other projects!</h1>
             <h2>
-                See other projects:
-                @ <a href='/task-tracker'>
+                <a className ='btn' href='/task-tracker'>
                     Task Tracker
-                </a>
-                <br />
-                @ tbd
-                <br />
-                @ tbd
+                </a> 
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <Link className='btn' to="/maze">Maze Generator</Link>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <Link className='btn' to ='/base'>Empty</Link>
             </h2>
-        </div>
+        </header>
     )
 }
 
