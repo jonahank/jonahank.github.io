@@ -5,8 +5,11 @@ const MazeGen = () => {
     return (
         <div>
             <Header />
-            Hello
-            @ <Link className='btn' to="/base">Go Back</Link>
+            <div className='maze'>
+            
+
+            </div>
+
         </div>
     )
 }
