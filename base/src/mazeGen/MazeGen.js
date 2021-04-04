@@ -13,10 +13,11 @@ const MazeGen = () => {
         const getBoard = async () => {
             setBoard(Array(169).fill(false))
         }
-
         getBoard();
     }, [] )
 
+
+    //generat
 
     //switch between true/false
     const toggle = (i) => {

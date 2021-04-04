@@ -1,5 +1,13 @@
 const Square = (props) => {
     let name = 'square';
+    const riBorder = Math.random();
+    const boBorder = Math.random();
+    const borderStyle = {
+        borderRightWidth: (riBorder<0.27) && !(props.index%13 === 12)? '5px': '1px',
+        borderRightColor: (riBorder<0.27) && !(props.index%13 === 12)? 'red': '',
+        borderBottomWidth: (boBorder<0.27) && (props.index<156)? '5px' : '',
+        borderBottomColor: (boBorder<0.27) && (props.index<156)? 'red' : '',
+    }
 
     const status = () => {
         props.toggle(props.index);
@@ -11,7 +19,9 @@ const Square = (props) => {
     }
 
     return (
-        <div id={`square${props.index}`} className={'square'} 
+        <div id={`square${props.index}`}
+            style ={borderStyle}
+            className={'square'} 
             onClick={() => status()}
             >
         </div>

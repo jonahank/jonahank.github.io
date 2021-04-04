@@ -39,6 +39,22 @@
   .square.Green {
     background: lightgreen;
   }
+
+  .square.Green.right {
+    border-right: 5px solid red;
+  }
+
+  .square.Green.bot {
+    border-bottom: 5px solid red;
+  }
+
+  .square.right {
+    border-right: 5px solid red;
+  }
+
+  .square.bot {
+    border-bottom: 5px solid red;
+  }
   
   .square:focus {
     outline: none;
