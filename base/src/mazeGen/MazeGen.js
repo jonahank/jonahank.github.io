@@ -19,9 +19,8 @@ const MazeGen = () => {
 
 
     //switch between true/false
-    const toggle = async (i) => {
-        console.log(i);
-        const newBoard = gameBoard;
+    const toggle = (i) => {
+        let newBoard = gameBoard;
         newBoard[i] = (!gameBoard[i]);
         setBoard(newBoard);
     }

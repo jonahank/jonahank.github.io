@@ -4,8 +4,8 @@ const Board = (props) => {
 
     //size 13
     const row = (i) => {
-        return <div>
-            {/* <Square
+        return <>
+            <Square
                 board={props.square}
                 status={props.square[0+i]} 
                 index={0+i}
@@ -82,15 +82,15 @@ const Board = (props) => {
                 board={props.square}
                 toggle={props.toggle}
                 index={12+i}
-            /> */}
-        </div>
+            />
+        </>
     };
 
 
 
     return (
         // repeat this 13 times:
-            <div>
+            <>
                 <div className='board-row' id='row'>
                 {row (0)}
                 </div>
@@ -130,7 +130,7 @@ const Board = (props) => {
                 <div className='board-row' id='row'>
                 {row (156)}
                 </div>
-            </div>
+            </>
         )
 }
 

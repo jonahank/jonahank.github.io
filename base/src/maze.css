@@ -36,21 +36,8 @@
     width: 43px;
   }
 
-  .squareGreen {
+  .square.Green {
     background: lightgreen;
-    border: 1px solid steelblue;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 43px;
-    margin-right: -1px;
-    margin-top: -1px;
-    margin-bottom: -1px;
-    margin-left: -1px;
-    padding: 0;
-    text-align: center;
-    width: 43px;
   }
   
   .square:focus {
