@@ -5,58 +5,84 @@ const Board = (props) => {
     //size 13
     const row = (i) => {
         return <div>
-            <Square> 
-                status={props.square[0+i]}
+            {/* <Square
+                board={props.square}
+                status={props.square[0+i]} 
                 index={0+i}
-            </Square>
-            <Square> 
+                toggle={props.toggle}
+            />
+            <Square
                 status={props.square[1+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={1+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[2+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={2+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[3+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={3+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[4+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={4+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[5+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={5+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[6+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={6+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[7+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={7+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[8+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={8+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[9+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={9+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[10+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={10+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[11+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={11+i}
-            </Square>
-            <Square> 
+            />
+            <Square
                 status={props.square[12+i]}
+                board={props.square}
+                toggle={props.toggle}
                 index={12+i}
-            </Square>
+            /> */}
         </div>
     };
 
@@ -69,40 +95,40 @@ const Board = (props) => {
                 {row (0)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (1)}
+                {row (13)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (2)}
+                {row (26)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (3)}
+                {row (39)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (4)}
+                {row (52)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (5)}
+                {row (65)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (6)}
+                {row (78)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (7)}
+                {row (91)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (8)}
+                {row (104)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (9)}
+                {row (117)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (10)}
+                {row (130)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (11)}
+                {row (143)}
                 </div>
                 <div className='board-row' id='row'>
-                {row (12)}
+                {row (156)}
                 </div>
             </div>
         )

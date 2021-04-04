@@ -1,10 +1,10 @@
 const Square = (props) => {
+
     return (
-        <button className='square' 
-            index = {props.value}
-            status = {props.status}
+        <div className={props.board[props.index]? 'squareGreen' : 'square'} 
+            onClick={() => props.toggle(props.index)}
             >
-        </button>
+        </div>
     )
 }
 

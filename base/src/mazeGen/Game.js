@@ -1,5 +1,3 @@
-import { render } from "@testing-library/react";
-
 const Game = (props) => {
     super(props);
 
